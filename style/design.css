@@ -1,0 +1,145 @@
+/*index.html*/
+
+
+#banner2 {
+	width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titre {
+	color: #fff;
+	font-size: 30px;
+	font-family: Impact, fantasy;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-line {
+	padding-top: 10px;
+	border-bottom: 2px solid #1c1c1c;
+	width: 15%;
+}
+
+#title {
+	font-family: Verdana;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+#main {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	font-family: Verdana;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#maintext {
+	display: flex;
+	justify-content: space-between;
+	font-family: Verdana;
+	width: 40%;
+}
+
+#carouselExampleSlidesOnly {
+	width: 40%;
+	margin-right: 50px;
+}
+
+#secondtitle {
+	font-family: Verdana;
+	margin-left: 50px;
+	padding-bottom: 50px;
+}
+
+#secondmain img {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+  font-family: Verdana;
+}
+
+.card-text {
+	padding: 30px;
+	text-align: center;
+}
+
+
+
+/*contct.html*/
+
+
+
+#textform {
+	text-align: center;
+	font-family: Verdana;
+	padding-bottom: 50px;
+}
+
+#textform p {
+	margin : 0px;
+}
+
+#contactform {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+#contactform img {
+	display: flex;
+	width: 40%;
+}
+
+#contactform form {
+	width: 50%;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#contactform input {
+	height: 50px;
+	width: 600px;
+}
+
+
+
+/*menu.html*/
+
+
+
+#textcanva p {
+	text-align: center;
+	font-family: Verdana;
+	margin : 0px;
+	padding-bottom: 30px;
+}
+
+#canva {
+	text-align: center;
+	padding-bottom: 50px;
+}

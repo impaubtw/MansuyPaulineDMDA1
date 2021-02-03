@@ -1,0 +1,65 @@
+/*responsive*/
+
+@media screen and (max-width: 600px) {
+
+	#main {
+		display: flex;
+		flex-direction: column;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	#maintext {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	#carouselExampleSlidesOnly {
+		width: 100%;
+		height: auto;
+	}
+
+	#infos p {
+		font-size: 12px;
+		padding-bottom: 20px;
+	}
+
+	#reseaux {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#reseaux svg {
+		width: 20px;
+	}
+
+	#canva img {
+		width: 100%;
+		height: auto;
+	}
+
+	#contactform {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#contactform form {
+		width: 85%;
+	}
+
+	#contactform img {
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	#contactform label {
+		text-align: center;
+	}
+
+	#contactform input {
+		width: 100%;
+	}
+
+}
